@@ -8,9 +8,12 @@
         [ "{{", "}}" ],
         [ "{%", "%}" ],
         [ "{#", "#}" ],
+        [ "{", "}" ],
+        [ "(", ")" ],
+        [ "[", "]" ],
     ],
     "indentationRules": {
-        "increaseIndentPattern": "\\{%\\s(block|if|filter|for)(?!.*\\{%\\send\\1)|\\{%\\s(?:elif|else)(?!.*\\{%\\sendif)|\\{%\\s(?:empty)(?!.*\\{%\\sendfor)|[^\\{]\\{(^[\\{%])|\\(|\\[|case[^:]*:|default[^:]*:",
+        "increaseIndentPattern": "\\{%\\s(block|if|filter|for)(?!.*\\{%\\send\\1)|\\{%\\s(?:elif|else)(?!.*\\{%\\sendif)|\\{%\\s(?:empty)(?!.*\\{%\\sendfor)|[^\\{]\\{([^\\{%#]|$)|\\(|\\[|case[^:]*:|default[^:]*:",
         "decreaseIndentPattern": "^\\s*(\\{%\\s(?:elif|else|empty|endblock|endif|endfilter|endfor)|[^\\}%#](?!\\}\\})\\}|\\)|\\]|case|default)"
     }
 }
