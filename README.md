@@ -14,7 +14,7 @@ Also included is a **Stencil for HTML** language that supports both Stencil and 
 
 ![Stencil for HTML syntax highlighting](images/stencil-html.png)
 
-And there is **Stencil for Swuft** language that supports both Stencil and Swift:
+And there is **Stencil for Swift** language that supports both Stencil and Swift:
 
 ![Stencil for Swift syntax highlighting](images/stencil-swift.png)
 
